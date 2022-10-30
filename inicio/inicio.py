@@ -3,7 +3,7 @@ from tkinter import*
 class Alumno:
     def __init__(self,ventana):
         self.ventana=ventana
-        self.ventana.title("ERP_lib")
+        self.ventana.title("ERwdfasdfasdfP_lib")
 if __name__=="__main__":
     ventana=Tk()
     aplicacion=Alumno(ventana)
