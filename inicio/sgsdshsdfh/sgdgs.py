@@ -1,2 +1,0 @@
-
-print("jimm mediun arcus")
