@@ -12,7 +12,7 @@ ventana= tk.Tk()
 ventana.title("INICIO")
 ventana.geometry("1916x1364+500+50")
 ventana.resizable(width=False,height=False)
-fondo=tk.PhotoImage(file="imagenes/nuevo fondo.png")
+fondo=tk.PhotoImage(file="imagenes/FONDO_ente.png")
 fondo1 = tk.Label(ventana, image=fondo).place(x=0, y=0, relwidth=1, relheight=1)
 
 usuario=tk.StringVar()
@@ -52,7 +52,7 @@ boton1.place(x=734, y=1185)
 
 intcheck_re=tk.IntVar()
 
-check_re=tk.Checkbutton(ventana, text='Recordar',bg=fondo_fondo_check,width=12,fg="#ffffff",font=("Inter", 40,"bold"))
-check_re.place(x=334, y=990)
+check_re=tk.Checkbutton(ventana, text='Recordar',bg=fondo_fondo_check,width=12,fg="#ffffff",font=("Inter", 40,"bold"), relief='flat')
+check_re.place(x=160, y=998)
 
 ventana.mainloop()
