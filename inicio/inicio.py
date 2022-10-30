@@ -5,10 +5,8 @@ import tkinter as tk
 #colores
 fondo_CONECTAR="#54556d"
 fondo_ENTRADA="#ffffff"
+fondo_fondo_check="#00b764"
 #entradas
-
-
-
 
 ventana= tk.Tk()
 ventana.title("INICIO")
@@ -48,4 +46,13 @@ entrada2.bind('<FocusOut>', on_leave)
 #Botones
 boton1=tk.Button(ventana, text="CONECTAR",fg="#ffffff", cursor="hand2", bg=fondo_CONECTAR, width=12, relief="flat", font=("Inter", 40,"bold"))
 boton1.place(x=734, y=1185)
+
+
+#def chekboton
+
+intcheck_re=tk.IntVar()
+
+check_re=tk.Checkbutton(ventana, text='Recordar',bg=fondo_fondo_check,width=12,fg="#ffffff",font=("Inter", 40,"bold"))
+check_re.place(x=334, y=990)
+
 ventana.mainloop()
